@@ -1,6 +1,7 @@
 # Define the variable board below.
 
-def display_board (board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
+def display_board
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "display board"
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
 puts "-----------"
