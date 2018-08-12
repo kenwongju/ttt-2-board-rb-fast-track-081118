@@ -1,14 +1,10 @@
 # Define the variable board below.
 
-def board = row ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
- row[0]
- row[1]
- row[2]
- row[3]
- row[4]
- row[5]
- row[6]
- row[7]
- row[8]
+def display_board(board)
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+end
  
- end
